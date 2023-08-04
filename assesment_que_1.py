@@ -1,3 +1,11 @@
+# MAKE A PROGRAM TO MERGE TWO LIST INTO A SINGLE DICTIONARIES
+# ● Take inputs from the user
+# ● Any one list must contain unique elements
+# ● both the list should be of the same size
+# ● both the list should be a combination of numbers and names
+# ● Name of dictionary you can take it accordingly
+
+
 def create_dictionary(keys, values):
     dictionary = {}
     for i in range(len(keys)):

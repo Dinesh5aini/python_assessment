@@ -1,3 +1,12 @@
+# Calendar
+# ● Take input from the user in form of three integers
+# ● The three integers represent a year, month and day
+# ● Print the season of that month and day
+# ● Now check whether the given year is a leap year or not
+# ● If the year is a leap year then print the number of days in that year else print the
+# next leap year
+
+
 def isLeapYear(year):
     if (year%4==0 and year%100!=0) or (year%400==0):
         return True
